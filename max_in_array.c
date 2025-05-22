@@ -2,10 +2,15 @@
 
 int main(int argc, char const *argv[])
 {
-    int tab[5] = {2, 8, 3, 5, 1};
-    int max = tab[0];
+    int n, max=0;
+    int tab[n];
+    scanf("%d", &n);
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &tab[i]);
+    }
+    for (int i = 0; i < n; i++)
     {
         if (tab[i] > max)
         {
@@ -13,7 +18,7 @@ int main(int argc, char const *argv[])
         }
         
     }
+    printf("Le maximum est : %d\n",max);
     
-    printf("Le maximum est : %d", max);
     return 0;
 }
