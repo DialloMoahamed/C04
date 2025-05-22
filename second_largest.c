@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
         
     }
     
-    printf("Le deuxième plus grand nombre est : %d.",max2);
+    printf("Le deuxième plus grand nombre est :%d",max2);
     
     return 0;
 }
