@@ -24,9 +24,10 @@ int main(int argc, char const *argv[])
         }
         
     }
+    printf("Tableau trié : ");
     for (int i = 0; i < n; i++)
     {
-        printf("Tableau trié : %d ", tableau[i]);
+        printf("%d ", tableau[i]);
     }
     printf("\n");
     
