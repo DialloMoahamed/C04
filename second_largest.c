@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main(void)
 {
     int n, max=0, max2=0;
-    int tab[n];
     scanf("%d", &n);
+    int tab[n];
 
     for (int i = 0; i < n; i++)
     {
