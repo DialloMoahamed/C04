@@ -31,13 +31,11 @@ int main(int argc, char const *argv[])
         }
         
     }
-    
     printf("Après suppression des doublons : ");
     for (int i = 0; i < n; i++)
     {
         printf("%d ", T[i]);
     }
     printf("\n");
-    
     return 0;
 }
